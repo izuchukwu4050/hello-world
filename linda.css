@@ -1,0 +1,89 @@
+body {
+    background-color: red;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0px solid red;
+    transition: width 2s;
+}
+a {
+    text-decoration: none;
+    color: white;
+    text-indent: 40px;
+    word-wrap: break-word;
+    
+}
+a:link {
+    color:white;
+}
+a:visited {
+    color: blueviolet;
+}
+a:hover {
+    color: blanchedalmond;
+}
+a:active {
+    color: hotpink;
+}
+
+.inline, .insider, .inside {
+text-align: left;
+position:relative;
+display: inline;
+position: relative;
+}
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: aqua;
+    font-size: 40px;
+}
+article, main, section, .bday {
+    width: 300px;
+    margin: auto;
+    border: 1px solid red;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+li {
+    float: right;
+}
+li a {
+    display: block;
+}
+main, section, article {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    word-break: break-all;
+}
+div:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+span {
+ font-size: 15px;   
+}
+.sub {
+    text-align: center;
+}
+.frame {
+    width: 100px;
+    height: 50px;
+    margin: auto;
+    padding: 0px;
+    float: center;
+    border-style: 1px solid black;
+}
+
+
+
+
